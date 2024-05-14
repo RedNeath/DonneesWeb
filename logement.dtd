@@ -1,26 +1,26 @@
 <!DOCTYPE root [
 
 <!ELEMENT root (residence+)>
-<!ELEMENT residence (infos, services, address, house_services)>
-<!ELEMENT infos (bus, tramway, loyer)>
+<!ELEMENT residence (infos, services?, address?, house_services)>
+<!ELEMENT infos (bus?, tramway?, loyer)>
 <!ELEMENT services (liste)>
-<!ELEMENT address (CDATA)>
+<!ELEMENT address (#PCDATA)>
 <!ELEMENT house_services (house_service+)>
 <!ELEMENT bus (arret+)>
 <!ELEMENT tramway (arret+)>
-<!ELEMENT loyer (chambre+, studio+, t1+, t1b+, t2+, t3+)>
+<!ELEMENT loyer ((chambre|studio|t1|t1b|t2|t3)+)>
 <!ELEMENT arret (ligne+)>
-<!ELEMENT chambre (CDATA)>
-<!ELEMENT studio (CDATA)>
-<!ELEMENT t1 (CDATA)>
-<!ELEMENT t1b (CDATA)>
-<!ELEMENT t2 (CDATA)>
-<!ELEMENT t3 (CDATA)>
-<!ELEMENT ligne (PCDATA)>
-<!ELEMENT liste (CDATA)>
-<!ELEMENT house_service (CDATA)>
+<!ELEMENT chambre (#PCDATA)>
+<!ELEMENT studio (#PCDATA)>
+<!ELEMENT t1 (#PCDATA)>
+<!ELEMENT t1b (#PCDATA)>
+<!ELEMENT t2 (#PCDATA)>
+<!ELEMENT t3 (#PCDATA)>
+<!ELEMENT ligne (#PCDATA)>
+<!ELEMENT liste (#PCDATA)>
+<!ELEMENT house_service (#PCDATA)>
 
-<!ATTLIST residence id ID #REQUIRED>
+<!ATTLIST residence id CDATA #REQUIRED>
 <!ATTLIST residence title CDATA #REQUIRED>
 <!ATTLIST residence short_desc CDATA #IMPLIED>
 <!ATTLIST residence lat CDATA #IMPLIED>
