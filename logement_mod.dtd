@@ -1,0 +1,32 @@
+<!DOCTYPE root [
+
+<!ELEMENT root (residence+)>
+<!ELEMENT residence (infos, address?, house_services)>
+<!ELEMENT infos (bus?, tramway?, loyer)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT house_services (house_service+)>
+<!ELEMENT bus (arret+)>
+<!ELEMENT tramway (arret+)>
+<!ELEMENT loyer ((t1b|t2|t3)+)>
+<!ELEMENT arret (ligne+)>
+<!ELEMENT t1b (#PCDATA)>
+<!ELEMENT t2 (#PCDATA)>
+<!ELEMENT t3 (#PCDATA)>
+<!ELEMENT ligne (#PCDATA)>
+<!ELEMENT house_service (#PCDATA)>
+
+<!ATTLIST residence id CDATA #REQUIRED>
+<!ATTLIST residence title CDATA #REQUIRED>
+<!ATTLIST residence short_desc CDATA #IMPLIED>
+<!ATTLIST residence lat CDATA #IMPLIED>
+<!ATTLIST residence lon CDATA #IMPLIED>
+<!ATTLIST residence zone CDATA #IMPLIED>
+<!ATTLIST arret nom CDATA #REQUIRED>
+<!ATTLIST t1b superficie CDATA #REQUIRED>
+<!ATTLIST t1b nombre CDATA #IMPLIED>
+<!ATTLIST t2 superficie CDATA #REQUIRED>
+<!ATTLIST t2 nombre CDATA #IMPLIED>
+<!ATTLIST t3 superficie CDATA #REQUIRED>
+<!ATTLIST t3 nombre CDATA #IMPLIED>
+
+]>
