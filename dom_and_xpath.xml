@@ -1,0 +1,291 @@
+<?xml version="1.0" ?>
+<root>
+  <residence id="971" title="Résidence U' Olympe de Gouges" lat="47.2527351379" lon="-1.5562850237" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Bourgeoniere">
+          <ligne>86</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Bourgeoniere">
+          <ligne>2</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t1b superficie="18" nombre="214">367,32</t1b>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Accessible PMR</house_service>
+      <house_service>Parking PMR</house_service>
+      <house_service>Parking</house_service>
+      <house_service>Douche individuelle</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="967" title="Résidence de la réussite Wangari Maathaï" lat="47.2504196167" lon="-1.5598549843" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Vincent Scotto">
+          <ligne>86</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Bourgeoniere">
+          <ligne>2</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t2 superficie="39" nombre="54">493,60</t2>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Accessible PMR</house_service>
+      <house_service>Parking PMR</house_service>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+    </house_services>
+  </residence>
+  <residence id="979" title="Résidence U' Madeleine Brès" lat="47.2660102844" lon="-1.5647039413" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Géraudière">
+          <ligne>50</ligne>
+          <ligne>96</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Chêne des Anglais">
+          <ligne>2</ligne>
+        </arret>
+        <arret nom="Santos Dumont">
+          <ligne>2</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t3 superficie="36" nombre="44">661,84</t3>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Accessible PMR</house_service>
+      <house_service>Logement adaptable</house_service>
+      <house_service>Parking PMR</house_service>
+      <house_service>Parking</house_service>
+      <house_service>Douche individuelle</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+      <house_service>Kitchenette individuelle</house_service>
+    </house_services>
+  </residence>
+  <residence id="968" title="Résidence U' Les Landes" lat="47.2527694702" lon="-1.5613030195" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Bourgeoniere">
+          <ligne>86</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Bourgeoniere">
+          <ligne>2</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t1b superficie="31" nombre="31">346,01</t1b>
+        <t2 superficie="43" nombre="2">455,23</t2>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Accessible PMR</house_service>
+      <house_service>Parking PMR</house_service>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+    </house_services>
+  </residence>
+  <residence id="973" title="Résidence U' Corbilo" lat="47.2025222778" lon="-1.5433219671" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Mangin">
+          <ligne>26</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Mangin">
+          <ligne>2</ligne>
+          <ligne>3</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t1b superficie="30" nombre="27">562,33</t1b>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Accessible PMR</house_service>
+      <house_service>Parking PMR</house_service>
+      <house_service>Ascenseur</house_service>
+      <house_service>Douche individuelle</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Distribution protections périodiques</house_service>
+      <house_service>Kitchenette individuelle</house_service>
+    </house_services>
+  </residence>
+  <residence id="972" title="Résidence U 'Jacques Tymen" lat="47.2547264099" lon="-1.5460430384" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Rivière">
+          <ligne>E5</ligne>
+          <ligne>75</ligne>
+          <ligne>50</ligne>
+          <ligne>66</ligne>
+          <ligne>80</ligne>
+          <ligne>86</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Recteur-Schmitt">
+          <ligne>2</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t1b superficie="30" nombre="26">415,52</t1b>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Douche individuelle</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+    </house_services>
+  </residence>
+  <residence id="1272" title="Résidence U' O Slow" lat="47.202863" lon="-1.553203" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="MIN">
+          <ligne>26</ligne>
+          <ligne>C5</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Vincent Gâche">
+          <ligne>2</ligne>
+          <ligne>3</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t2 superficie="35" nombre="16">575,49</t2>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Accessible PMR</house_service>
+      <house_service>Ascenseur</house_service>
+      <house_service>Douche individuelle</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de sport</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+      <house_service>Kitchenette individuelle</house_service>
+    </house_services>
+  </residence>
+  <residence id="978" title="Résidence U' La Haute Forêt" lat="47.232875824" lon="-1.5550800562" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Haute Forêt">
+          <ligne>23</ligne>
+          <ligne>10</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Saint Felix">
+          <ligne>2</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t1b superficie="28" nombre="11">436,59</t1b>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Accessible PMR</house_service>
+      <house_service>Parking PMR</house_service>
+      <house_service>Parking</house_service>
+      <house_service>Douche individuelle</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+      <house_service>Kitchenette individuelle</house_service>
+    </house_services>
+  </residence>
+  <residence id="977" title="Résidence U' Léonard de Vinci" lat="47.2297821045" lon="-1.5444732904" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Chpalet">
+          <ligne>C6</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Motte Rouge">
+          <ligne>2</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t1b superficie="30" nombre="4">360,69</t1b>
+        <t2 superficie="45" nombre="2">464,78</t2>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Douche individuelle</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+      <house_service>Kitchenette individuelle</house_service>
+    </house_services>
+  </residence>
+  <residence id="969" title="Résidence U' Alice Milliat" lat="47.2491188049" lon="-1.5542190075" zone="NANTES">
+    <infos>
+      <bus>
+        <arret nom="Ecole centrale">
+          <ligne>20</ligne>
+          <ligne>26</ligne>
+          <ligne>75</ligne>
+          <ligne>80</ligne>
+          <ligne>66</ligne>
+          <ligne>E5</ligne>
+        </arret>
+        <arret nom="Guy mollet">
+          <ligne>20</ligne>
+          <ligne>26</ligne>
+          <ligne>75</ligne>
+          <ligne>80</ligne>
+          <ligne>66</ligne>
+          <ligne>E5</ligne>
+        </arret>
+      </bus>
+      <tramway>
+        <arret nom="Ecole centrale - audencia">
+          <ligne>2</ligne>
+        </arret>
+      </tramway>
+      <loyer>
+        <t1b superficie="32" nombre="6">343,26</t1b>
+      </loyer>
+    </infos>
+    <house_services>
+      <house_service>Ascenseur</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+    </house_services>
+  </residence>
+</root>
