@@ -27,7 +27,7 @@ for residence in residences:
         total_apartments = t1b_count + t2_count + t3_count
         
         if total_apartments > 0:
-            heapq.heappush(filtered_residences, PrioritizedItem(-total_apartments, residence))
+            heapq.heappush(filtered_residences, PrioritizedItem(total_apartments, residence))
 
 # Créer un nouveau document XML
 doc = Document()
@@ -37,7 +37,7 @@ doc.appendChild(new_root)
 # Ajouter les résidences triées au nouveau document XML
 while filtered_residences:
     prioritized_item = heapq.heappop(filtered_residences)
-    count = -prioritized_item.priority  # inverser la négation pour obtenir le vrai nombre
+    count = prioritized_item.priority  # inverser la négation pour obtenir le vrai nombre
     residence = prioritized_item.item
 
     res_elem = doc.createElement('residence')
